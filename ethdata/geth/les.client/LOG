@@ -1,0 +1,33 @@
+=============== Sep 20, 2022 (MSK) ===============
+12:38:56.385483 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:38:56.388697 db@open opening
+12:38:56.389374 version@stat F·[] S·0B[] Sc·[]
+12:38:56.390388 db@janitor F·2 G·0
+12:38:56.390394 db@open done T·1.692461ms
+12:39:50.832925 db@close closing
+12:39:50.832941 db@close done T·15.33µs
+=============== Sep 20, 2022 (MSK) ===============
+15:33:43.853510 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:33:43.853548 version@stat F·[] S·0B[] Sc·[]
+15:33:43.853556 db@open opening
+15:33:43.853575 journal@recovery F·1
+15:33:43.853809 journal@recovery recovering @1
+15:33:43.854936 memdb@flush created L0@2 N·43 S·6KiB "ser..\xb9\xdbL,v17":"vtN..ǽ?,v29"
+15:33:43.855181 version@stat F·[1] S·6KiB[6KiB] Sc·[0.25]
+15:33:43.865462 db@janitor F·3 G·0
+15:33:43.865471 db@open done T·11.913239ms
+=============== Sep 21, 2022 (MSK) ===============
+08:43:50.273673 db@close closing
+08:43:50.273693 db@close done T·20.101µs
+=============== Sep 27, 2022 (MSK) ===============
+12:34:44.945191 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:34:44.945665 version@stat F·[1] S·6KiB[6KiB] Sc·[0.25]
+12:34:44.945676 db@open opening
+12:34:44.945698 journal@recovery F·1
+12:34:44.946183 journal@recovery recovering @3
+12:34:44.952437 memdb@flush created L0@5 N·1060 S·146KiB "ser..\xde\x1e4,v1085":"vtN..ǽ?,v1102"
+12:34:44.952862 version@stat F·[2] S·152KiB[152KiB] Sc·[0.50]
+12:34:44.957214 db@janitor F·4 G·0
+12:34:44.957223 db@open done T·11.545198ms
+12:40:21.923732 db@close closing
+12:40:21.923750 db@close done T·17.51µs
